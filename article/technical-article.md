@@ -88,8 +88,7 @@ Clone the repository and set up your environment:
 
 ```bash
 # Clone the project
-git clone https://github.com/JacobIsah/An-AI-that-Analyze-customer-sentiment.git
-cd An-AI-that-Analyze-customer-sentiment
+git clone https://github.com/zenUnicorn/Customer-Sentiment-analyzer.git
 
 # Create virtual environment
 python -m venv venv
@@ -419,7 +418,7 @@ This project provides a foundation. Consider extending it with:
 
 Building a **customer sentiment analysis Python** application doesn't require cloud dependencies or expensive APIs. With [Whisper](https://github.com/openai/whisper) for transcription, [HuggingFace Transformers](https://huggingface.co/) for NLP, and [BERTopic](https://maartengr.github.io/BERTopic/) for topic modeling, you can **analyze call recordings with AI** entirely on your local machine.
 
-The complete code is available on GitHub: [An-AI-that-Analyze-customer-sentiment](https://github.com/JacobIsah/An-AI-that-Analyze-customer-sentiment)
+The complete code is available on GitHub: [An-AI-that-Analyze-customer-sentiment](https://github.com/zenUnicorn/Customer-Sentiment-analyzer.git)
 
 Clone the repository, follow this **local AI speech-to-text tutorial**, and start extracting insights from your customer calls today.
 
