@@ -1,0 +1,61 @@
+# =============================================================================
+# CUSTOMER SENTIMENT ANALYZER - DEPENDENCIES
+# =============================================================================
+# Install with: pip install -r requirements.txt
+#
+# DEEP DIVE LESSON: Dependency Management
+# ---------------------------------------
+# Pinning versions (==) ensures reproducibility, but we use >= for flexibility
+# during development. For production, run `pip freeze > requirements.lock`
+# to capture exact versions.
+
+# =============================================================================
+# AUDIO PROCESSING & TRANSCRIPTION
+# =============================================================================
+# Whisper - OpenAI's speech recognition model (runs locally!)
+# This is the magic that converts audio to text without internet
+openai-whisper>=20231117
+
+# Audio processing utilities
+pydub>=0.25.1          # Audio file manipulation
+soundfile>=0.12.1      # Read/write sound files
+
+# FFmpeg is required by whisper/pydub - install separately:
+# Windows: choco install ffmpeg OR download from ffmpeg.org
+# Mac: brew install ffmpeg
+# Linux: sudo apt install ffmpeg
+
+# =============================================================================
+# NLP & MACHINE LEARNING
+# =============================================================================
+# Transformers - Hugging Face's library for pre-trained models
+transformers>=4.36.0
+torch>=2.0.0           # PyTorch backend for transformers
+
+# Sentiment & Emotion Analysis
+scipy>=1.11.0          # Scientific computing (used by transformers)
+
+# Topic Modeling
+bertopic>=0.16.0       # State-of-the-art topic modeling
+sentence-transformers>=2.2.0  # Text embeddings for BERTopic
+hdbscan>=0.8.33        # Clustering algorithm for BERTopic
+umap-learn>=0.5.5      # Dimensionality reduction for BERTopic
+
+# =============================================================================
+# DATA HANDLING
+# =============================================================================
+pandas>=2.0.0          # DataFrames for structured data
+numpy>=1.24.0          # Numerical operations
+
+# =============================================================================
+# DASHBOARD & VISUALIZATION
+# =============================================================================
+streamlit>=1.29.0      # Web dashboard framework
+plotly>=5.18.0         # Interactive charts
+altair>=5.0.0          # Declarative visualization (used by Streamlit)
+
+# =============================================================================
+# UTILITIES
+# =============================================================================
+tqdm>=4.66.0           # Progress bars for batch processing
+python-dotenv>=1.0.0   # Environment variable management

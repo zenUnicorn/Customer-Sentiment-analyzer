@@ -1,0 +1,89 @@
+{
+  "file_name": "sample_call_shipping_frustrated.json",
+  "file_path": "data/transcripts/sample_call_shipping_frustrated.json",
+  "transcription_timestamp": "2024-01-15T14:45:00",
+  "model_used": "whisper-base",
+  "language": "english",
+  "text": "Thank you for calling customer support. Hi, I'm extremely frustrated right now. I ordered a product two weeks ago and it still hasn't arrived! I can understand your frustration. Let me look into this for you. What's your order number? It's 987654321. I've been waiting and waiting and nobody can tell me where my package is! I see the order here. It looks like there was a delay at the distribution center. That's unacceptable! I needed this for an important event that's already passed! I paid for express shipping! I completely understand, and I sincerely apologize. Let me see what I can do to make this right. A refund for the shipping would be a start, but honestly I'm considering never ordering from you again. I can absolutely process that refund for you right now. Additionally, I'd like to offer you a 20% discount on your next order. Fine, I guess that helps somewhat. But please, just tell me when my package will actually arrive. Based on the tracking, it should arrive by Friday. I've escalated this to priority status. Okay, thank you. I hope it actually arrives this time.",
+  "word_count": 210,
+  "duration_seconds": 180,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 10,
+      "text": "Thank you for calling customer support.",
+      "confidence": -0.2
+    },
+    {
+      "id": 1,
+      "start": 10,
+      "end": 30,
+      "text": "Hi, I'm extremely frustrated right now. I ordered a product two weeks ago and it still hasn't arrived!",
+      "confidence": -0.4
+    },
+    {
+      "id": 2,
+      "start": 30,
+      "end": 45,
+      "text": "I can understand your frustration. Let me look into this for you. What's your order number?",
+      "confidence": -0.25
+    },
+    {
+      "id": 3,
+      "start": 45,
+      "end": 65,
+      "text": "It's 987654321. I've been waiting and waiting and nobody can tell me where my package is!",
+      "confidence": -0.45
+    },
+    {
+      "id": 4,
+      "start": 65,
+      "end": 80,
+      "text": "I see the order here. It looks like there was a delay at the distribution center.",
+      "confidence": -0.3
+    },
+    {
+      "id": 5,
+      "start": 80,
+      "end": 100,
+      "text": "That's unacceptable! I needed this for an important event that's already passed! I paid for express shipping!",
+      "confidence": -0.5
+    },
+    {
+      "id": 6,
+      "start": 100,
+      "end": 115,
+      "text": "I completely understand, and I sincerely apologize. Let me see what I can do to make this right.",
+      "confidence": -0.25
+    },
+    {
+      "id": 7,
+      "start": 115,
+      "end": 135,
+      "text": "A refund for the shipping would be a start, but honestly I'm considering never ordering from you again.",
+      "confidence": -0.45
+    },
+    {
+      "id": 8,
+      "start": 135,
+      "end": 155,
+      "text": "I can absolutely process that refund for you right now. Additionally, I'd like to offer you a 20% discount on your next order.",
+      "confidence": -0.2
+    },
+    {
+      "id": 9,
+      "start": 155,
+      "end": 170,
+      "text": "Fine, I guess that helps somewhat. But please, just tell me when my package will actually arrive.",
+      "confidence": -0.35
+    },
+    {
+      "id": 10,
+      "start": 170,
+      "end": 180,
+      "text": "Based on the tracking, it should arrive by Friday. I've escalated this to priority status. Okay, thank you. I hope it actually arrives this time.",
+      "confidence": -0.3
+    }
+  ]
+}

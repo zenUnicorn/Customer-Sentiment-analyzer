@@ -1,0 +1,68 @@
+{
+  "file_name": "sample_call_billing_positive.json",
+  "file_path": "data/transcripts/sample_call_billing_positive.json",
+  "transcription_timestamp": "2024-01-15T10:30:00",
+  "model_used": "whisper-base",
+  "language": "english",
+  "text": "Hello thank you for calling customer service, my name is Sarah how can I help you today? Hi Sarah, I have a question about my bill, there seems to be an extra charge that I don't understand. I'd be happy to help you with that. Let me pull up your account. Can I have your account number please? Yes it's 123456789. Thank you. I can see the charge you're referring to. That was for the premium service upgrade you requested last month. Oh right, I completely forgot about that! That makes sense now. I'm so sorry for the confusion. No problem at all, I'm glad we could clarify that for you. Is there anything else I can help you with today? No that's all, thank you so much Sarah, you've been very helpful! You're welcome! Have a great day!",
+  "word_count": 150,
+  "duration_seconds": 120,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 15,
+      "text": "Hello thank you for calling customer service, my name is Sarah how can I help you today?",
+      "confidence": -0.3
+    },
+    {
+      "id": 1,
+      "start": 15,
+      "end": 30,
+      "text": "Hi Sarah, I have a question about my bill, there seems to be an extra charge that I don't understand.",
+      "confidence": -0.35
+    },
+    {
+      "id": 2,
+      "start": 30,
+      "end": 50,
+      "text": "I'd be happy to help you with that. Let me pull up your account. Can I have your account number please? Yes it's 123456789.",
+      "confidence": -0.28
+    },
+    {
+      "id": 3,
+      "start": 50,
+      "end": 70,
+      "text": "Thank you. I can see the charge you're referring to. That was for the premium service upgrade you requested last month.",
+      "confidence": -0.25
+    },
+    {
+      "id": 4,
+      "start": 70,
+      "end": 85,
+      "text": "Oh right, I completely forgot about that! That makes sense now. I'm so sorry for the confusion.",
+      "confidence": -0.3
+    },
+    {
+      "id": 5,
+      "start": 85,
+      "end": 100,
+      "text": "No problem at all, I'm glad we could clarify that for you. Is there anything else I can help you with today?",
+      "confidence": -0.22
+    },
+    {
+      "id": 6,
+      "start": 100,
+      "end": 115,
+      "text": "No that's all, thank you so much Sarah, you've been very helpful!",
+      "confidence": -0.2
+    },
+    {
+      "id": 7,
+      "start": 115,
+      "end": 120,
+      "text": "You're welcome! Have a great day!",
+      "confidence": -0.15
+    }
+  ]
+}
